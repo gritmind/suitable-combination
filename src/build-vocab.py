@@ -23,23 +23,23 @@ parser = argparse.ArgumentParser(description="Flip a switch by setting a flag")
 parser.add_argument('--agnews', action='store_true')
 parser.add_argument('--yelpp', action='store_true')
 parser.add_argument('--verone', action='store_true')
-args = parser.parse_args()
+ 
 
 # argparse는 append하게 arg들을 추가할 수 있다
 # 그러나 한 가지 종류의 arg에 대해서는 정의할 떄는 여러 개로 할 수 있지만 불러올 떄는 한 가지만 불러오기 위해서 다음과 같이 if, elif문으로 구성하였다 
 # 만약 dataset에 관한 arg가 여러 개 입력했을 경우, elif문에서 가장 상위에 있는 arg.dataset이 우선적으로 할당된다
 
 # (1) dataset type
-if args.agnews == True:
+if parser.parse_args().agnews == True:
     DATASET = 'agnews'
-elif args.yelpp == True:
+elif parser.parse_args().yelpp == True:
     DATASET = 'yelpp'
 else:
     print("[arg error!] please add arg: python 1_build-vocab --(dataset-name)")
     exit()
 
 # (2) preprocessing version
-if args.verone == True:
+if parser.parse_args().verone == True:
     PRPR_VER = 'verone'    
 else:
     print("[arg error!] please add arg: python 1_build-vocab --(version)")
@@ -143,7 +143,7 @@ def text_cleaning_for_voca(doc):
 ################################################################################
     
 # train dataset만 로드하자.    
-if args.agnews == True:
+if parser.parse_args().agnews == True:
     train = pd.read_csv('../dataset/ag_news_csv/train.csv', header=None)
     data_statistic_analysis(train) # 데이터 통계 분석 (결과는 printf로 출력(file에 저장))
     
@@ -162,7 +162,7 @@ if args.agnews == True:
     print('(After pruning) vocabulary size: ', len(tokens))
     #vocab = set(tokens)
 
-elif args.yelpp == True:
+elif parser.parse_args().yelpp == True:
     pass
 
 ## END stdout for Description file 
