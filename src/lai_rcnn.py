@@ -139,9 +139,9 @@ Xtrain, ytrain, X_test, y_test, tokenizer = data_preprocessing(
                                             DATASET,
                                             PRPR_VER,
                                             vocab,
-                                            PATH_SAMPLE,
+                                            PATH_TRAIN,
                                             PATH_TEST,
-                                            True) # is sample true or false?
+                                            False) # is sample true or false?
 
 # # split train and validation set
 # # [주의]: cross-validation을 사용하면 아래 변수들은 그냥 사용안하면 된다.
