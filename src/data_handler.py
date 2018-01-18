@@ -16,7 +16,7 @@ ps = PorterStemmer()
 global allot_PRPR_VER
 global VOCA
 
-
+# modified
 
 ######################################################
 """ LOAD & PREPROCESSING & VECTORIZING DATASET """
