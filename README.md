@@ -1,3 +1,10 @@
-# text-classification-deep-learning
+# Suitable Combination of Text Preprocessing and Word Embedding
 
-https://drive.google.com/drive/u/0/folders/0Bz8a_Dbh9Qhbfll6bVpmNUtUcFdjYmF2SEpmZUZUcVNiMUw1TWN6RDV3a0JHT3kxLVhVR2M
+
+
+
+
+## Acknowledgement
+Korea Institute of Science and Technology Information (KISTI) <br>
+University of Science and Technology (UST) <br>
+2017.11 ~ 2018.02
