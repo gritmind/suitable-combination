@@ -29,7 +29,7 @@ For evaluation, we use AG's news dataset which is one of Zhang et al., 2015 Data
    * results.txt: accuracy, confusion matrix
    * decription.txt: model summary, history(loss,acc) during training
    * model.h5: trained model is saved to HDF5
-   * (avg)(max).txt: mean, max, min, std, average accuracy 
+   * (avg)(max).txt: mean, max, min, std, avg accuracy 
 
 ![](/assets/3_result.PNG)
 
