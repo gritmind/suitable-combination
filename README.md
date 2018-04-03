@@ -17,13 +17,13 @@ For evaluation, we use AG's news dataset which is one of Zhang et al., 2015 Data
 ```
 ~$ python 1_root_vocab.py
 ```
-![](/assets/1_root_vocab.PNG)
+![](/assets/1_root_vocab2.PNG)
 
 2. **Run Model** (according to (1)model (2)dataset (3)preprocessing-type (4)word_embedding (5)is_trainable) 
 ```
 ~$ python 2_root_model.py
 ```
-![](/assets/2_root_model.PNG)
+![](/assets/2_root_model2.PNG)
 
 ## Contribution
 
