@@ -9,6 +9,10 @@ We use Anaconda3-5.0.1-Linux-x86_64.sh. You can create a new vitual environment 
 ## Dataset
 For evaluation, we use AG's news dataset which is one of Zhang et al., 2015 Dataset. It was collected from AG's corpus of news article of the web and consists of the title and decroption fields with 4 classes. You can download it as csv format in [here](https://drive.google.com/open?id=1XbrUZk3_PFVEp7zkZVrNgnRRlXKgNWt3). 
 
+## Pre-trained Word Embedding
+
+
+
 ## Usage
 
 0. **Select Command**: for multiple programs at once, we select commands to be executed in `1_root_vocab.py` and `2_root_model.py` (arguments for core files (i.e. commands) are described in those files)
