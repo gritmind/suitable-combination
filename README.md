@@ -29,7 +29,7 @@ For evaluation, we use AG's news dataset which is one of Zhang et al., 2015 Data
 ```
 ![](/assets/2_root_model2.PNG)
 
-* (Experimental Results) 
+* (Experimental Results): Below files will be saved at ../src/model#/dataset#/ 
    * results.txt: accuracy, confusion matrix
    * decription.txt: model summary, history(loss,acc) during training
    * model.h5: trained model is saved to HDF5
