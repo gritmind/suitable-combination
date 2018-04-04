@@ -233,10 +233,9 @@ def define_rcnn_model(VOCA_SIZE, cnt):
     output = Dense(NUM_CLASSES, input_dim = Y_DIM, activation = "softmax")(max_pool_output_vector)
 
     model = Model(inputs = [org_word_seq, left_context_seq, right_context_seq], outputs = output)
-    model.compile(optimizer = "adadelta", 
-                  loss = "categorical_crossentropy", 
-                  metrics = ["accuracy"])
-    if cnt==1:              
+    model.compile(loss = "categorical_crossentropy", optimizer = "rmsprop", metrics = ["accuracy"])
+    
+    if cnt==1:
         print('\n')
         print('[ MODEL SUMMARY ]')
         print(model.summary())
