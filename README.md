@@ -1,5 +1,7 @@
-# Suitable Combination of Text Preprocessing and Word Embedding to Neural Network for Document Classification
+# Combination of Text Preprocessing and Word Embedding suitable for Neural Network Models for Document Classification 
 
+
+Paper(in Korean) - 문서 분류를 위한 신경망 모델에 적합한 텍스트 전처리와 워드 임베딩의 조합
 
 
 ## Prerequisites
@@ -9,8 +11,11 @@ We use Anaconda3-5.0.1-Linux-x86_64.sh. You can create a new vitual environment 
 ## Dataset
 For evaluation, we use AG's news dataset which is one of Zhang et al., 2015 Dataset. It was collected from AG's corpus of news article of the web and consists of the title and decroption fields with 4 classes. You can download it as csv format in [here](https://drive.google.com/open?id=1XbrUZk3_PFVEp7zkZVrNgnRRlXKgNWt3). 
 
-## Pre-trained Word Embedding
-
+## Pre-trained Word Embedding Model
+Download below to `../embedding/skip-gram/`, `../glove.6B`, `../glove.42B/`, `../glove.840B/`, `../fastText/`, respectively. 
+* Skip-gram (GoogleNews-vectors-negative300.bin) [[download](https://code.google.com/archive/p/word2vec/)]
+* GloVe (glove.6B.300d.txt, glove.42B.300d.txt, glove.840B.300d.txt) [[download](https://nlp.stanford.edu/projects/glove/)]
+* fastText (wiki.en.vec) [[download](https://fasttext.cc/docs/en/pretrained-vectors.html)]
 
 
 ## Usage
