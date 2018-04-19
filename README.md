@@ -1,7 +1,8 @@
 # Combination of Text Preprocessing and Word Embedding suitable for Neural Network Models for Document Classification 
 
+최근 문서 분류를 위해 신경망 모델과 함께 워드 임베딩을 많이 사용한다. 특별한 이유없이 특정 워드 임베딩을 사용하거나 텍스트 전처리에 대한 명시를 보통 하지 않고 있는 기존 연구들이 많다. 우리 연구는 신경망 모델의 성능을 높이는 한 가지 옵션으로 워드 임베딩과 전처리의 적합한 조합을 제시한다. 
 
-Paper(in Korean) - 문서 분류를 위한 신경망 모델에 적합한 텍스트 전처리와 워드 임베딩의 조합
+본 연구는 논문으로도 작성되었다: 문서 분류를 위한 신경망 모델에 적합한 텍스트 전처리와 워드 임베딩의 조합
 
 
 ## Prerequisites
@@ -41,7 +42,6 @@ Download below to `../embedding/skip-gram/`, `../glove.6B`, `../glove.42B/`, `..
    * (avg)(max).txt: mean, max, min, std, avg accuracy 
 
 ![](/assets/3_result.PNG)
-
 
 
 ## Contribution
