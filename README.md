@@ -1,9 +1,8 @@
-# Combination of Text Preprocessing and Word Embedding suitable for Neural Network Models for Document Classification 
+# Combinations of Text Preprocessing and Word Embedding Suitable for Neural Network Models for Document Classification 
 
 최근 문서 분류를 위해 신경망 모델과 함께 워드 임베딩을 많이 사용한다. 특별한 이유없이 특정 워드 임베딩을 사용하거나 텍스트 전처리에 대한 명시를 보통 하지 않는 기존 연구들이 많다. 우리 연구는 신경망 모델의 성능을 높이는 한 가지 옵션으로 워드 임베딩과  텍스트 전처리의 적합한 조합을 제시한다. 추가적으로 패딩 방식과 미세조정에 의한 워드 임베딩 재학습 여부에 대한 분석을 실시한다.
 
-
-본 연구는 논문으로도 작성됨: 문서 분류를 위한 신경망 모델에 적합한 텍스트 전처리와 워드 임베딩의 조합
+본 연구는 논문으로도 작성됨: 문서 분류를 위한 신경망 모델에 적합한 텍스트 전처리와 워드 임베딩의 조합, 정보과학회논문지
 
 
 ## Prerequisites
@@ -46,12 +45,17 @@ Download below to `../embedding/skip-gram/`, `../glove.6B`, `../glove.42B/`, `..
 
 
 ## Contribution
-* 적합한 텍스트 전처리와 워드 임베딩 조합 필요성 제기
-* 제로 패딩과 미세조정에 의한 워드 임베딩 재학습이 항상 좋진 않음을 확인
-* 최신 모델 (K-CNN, Y-RNN, L-RCNN) 구현 및 문서 분류 모델 파이프라인(전처리-워드임베딩-모델) 구현
+* 텍스트 전처리와 워드 임베딩의 적합한(최적의) 조합 필요성 제기.
+* 조합 선정 기준 제시 (OOV단어 비율이 낮고, 어휘 사전 크기가 클수록 좋음). 
+* 구체적인 조합 제시 (구두점-분할, 레마타이징 & Skip-gram, GloVe.840B).
+* 패딩 방식과 미세조정에 의한 워드 임베딩 재학습은 모델에 따라 달라짐.
+* 학습 데이터에 학습된 워드 임베딩 모델보다 사전에 학습된 워드 임베딩 모델의 우수성 확인.
+* 최신 모델 (K-CNN, Y-RNN, L-RCNN) 구현 및 문서 분류 모델 파이프라인(전처리-워드임베딩-모델) 구현.
 
 ## Summary
 * 딥러닝 환경 구축 에러 정리 [[here](https://github.com/gritmind/suitable-combination/blob/master/assets/2018-01-30-Error-Messages.md)]
+* 사전에 학습된 워드 임베딩 모델의 전처리와 태스크 전처리의 일치 여부 중요 & 추가적인 전처리 필요. (ex. 구두점 처리, 레마타이징)
+
 
 
 
