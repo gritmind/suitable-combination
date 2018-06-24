@@ -71,7 +71,7 @@ def text_cleaning_for_voca(doc):
     ###################################################################################
     ### (2)
     MIN_FREQ = 3
-    tokens = [word for word in tokens if word.isalpha()] # remove non-alphabetic tokens
+    #tokens = [word for word in tokens if word.isalpha()] # remove non-alphabetic tokens
     stop_words = set(stopwords.words('english')) # remove stop-words
     tokens = [word for word in tokens if not word in stop_words]
     # remove non-freq words (limit to document-level)
