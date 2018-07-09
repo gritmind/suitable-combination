@@ -2,7 +2,7 @@
 
 최근 문서 분류를 위해 신경망 모델과 함께 워드 임베딩을 많이 사용한다. 특별한 이유없이 특정 워드 임베딩을 사용하거나 텍스트 전처리에 대한 명시를 보통 하지 않는 기존 연구들이 많다. 우리 연구는 신경망 모델의 성능을 높이는 한 가지 옵션으로 워드 임베딩과  텍스트 전처리의 적합한 조합을 제시한다. 추가적으로 패딩 방식과 미세조정에 의한 워드 임베딩 재학습 여부에 대한 분석을 실시한다.
 
-본 연구는 정보과학회논문지 제45권 7호에 문서 분류를 위한 신경망 모델에 적합한 텍스트 전처리와 워드 임베딩의 조합으로 게재되었음.
+본 연구는 정보과학회논문지 제45권 7호에 "문서 분류를 위한 신경망 모델에 적합한 텍스트 전처리와 워드 임베딩의 조합"으로 게재(2018년7월15일)되었음.
 ## Prerequisites
 We use Anaconda3-5.0.1-Linux-x86_64.sh. You can create a new vitual environment with all the dependencies in the yml files: 
 `~$ conda env create -f environment-tensorflow-1.yml`  `environment-theano-1.yml`. You can check python libraries for this project in those .yml files.
