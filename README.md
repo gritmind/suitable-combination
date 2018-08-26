@@ -50,7 +50,6 @@ Download below to `../embedding/skip-gram/`, `../glove.6B`, `../glove.42B/`, `..
 * 패딩 방식과 미세조정에 의한 워드 임베딩 재학습은 모델에 따라 달라짐.
 * 학습 데이터에 학습된 워드 임베딩 모델보다 사전에 학습된 워드 임베딩 모델의 우수성 확인.
 * 최신 모델 (K-CNN, Y-RNN, L-RCNN) 구현 및 문서 분류 모델 파이프라인(전처리-워드임베딩-모델) 구현.
-
 * 딥러닝 환경 구축 에러 정리 [[here](https://github.com/gritmind/suitable-combination/blob/master/assets/2018-01-30-Error-Messages.md)]
 * 사전에 학습된 워드 임베딩 모델의 전처리와 태스크 전처리의 일치 여부 중요 & 추가적인 전처리 필요. (ex. 구두점 처리, 레마타이징)
 
