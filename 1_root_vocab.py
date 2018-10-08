@@ -1,10 +1,9 @@
 # -*- coding: utf-8 -*-
-#from main import *
+# to build vocubulary based on specific dataset and preprocessing
 import sys
 import os
 
 os.chdir('src') 
-
 command_str_list = [ 
 
     ###################################
