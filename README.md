@@ -55,7 +55,7 @@ Download below to `../embedding/skip-gram/`, `../glove.6B`, `../glove.42B/`, `..
 * 사전에 학습된 워드 임베딩 모델의 전처리와 태스크 전처리의 일치 여부 중요 & 추가적인 전처리 필요. (ex. 구두점 처리, 레마타이징)
 * 딥러닝 환경 구축 에러 정리 [[here](https://github.com/gritmind/suitable-combination/blob/master/assets/2018-01-30-Error-Messages.md)]
 
-## Summary
+## 
 * 최근 신경망 모델을 사용하는 문서 분류 연구에서의 제한점 
    - 특별한 이유 없이 특정 워드 임베딩 모델만 사용
    - 명확히 명시되지 않은 텍스트 전처리 사용
