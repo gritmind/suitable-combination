@@ -51,11 +51,8 @@ Download below to `../embedding/skip-gram/`, `../glove.6B`, `../glove.42B/`, `..
 * 구체적인 조합 제시 (구두점-분할, 레마타이징 & Skip-gram, GloVe.840B)
 * 패딩 방식과 미세조정에 의한 워드 임베딩 재학습은 모델에 따라 달라짐
 * 학습 데이터에 학습된 워드 임베딩 모델보다 사전에 학습된 워드 임베딩 모델의 우수성 확인
-* 최신 모델 (K-CNN, Y-RNN, L-RCNN) 구현 및 문서 분류 모델 파이프라인(전처리-워드임베딩-모델) 구현
-* 사전에 학습된 워드 임베딩 모델의 전처리와 태스크 전처리의 일치 여부 중요 & 추가적인 전처리 필요. (ex. 구두점 처리, 레마타이징)
-* 딥러닝 환경 구축 에러 정리 [[here](https://github.com/gritmind/suitable-combination/blob/master/assets/2018-01-30-Error-Messages.md)]
 
-## 
+## 주요내용
 * 최근 신경망 모델을 사용하는 문서 분류 연구에서의 제한점 
    - 특별한 이유 없이 특정 워드 임베딩 모델만 사용
    - 명확히 명시되지 않은 텍스트 전처리 사용
@@ -65,6 +62,11 @@ Download below to `../embedding/skip-gram/`, `../glove.6B`, `../glove.42B/`, `..
    - 신경망 모델: CNN, RNN, RCNN
    - 워드 임베딩 모델: skip-gram, GloVe, fastText
 * 추가로 패딩 방식과 미세조정에 의한 워드 임베딩 재학습 여부에 대한 비교 실험 실시
+
+## Summary
+* 최신 모델 (K-CNN, Y-RNN, L-RCNN) 구현 및 문서 분류 모델 파이프라인(전처리-워드임베딩-모델) 구현
+* 사전에 학습된 워드 임베딩 모델의 전처리와 태스크 전처리의 일치 여부 중요 & 추가적인 전처리 필요. (ex. 구두점 처리, 레마타이징)
+* 딥러닝 환경 구축 에러 정리 [[here](https://github.com/gritmind/suitable-combination/blob/master/assets/2018-01-30-Error-Messages.md)]
 
 
 
