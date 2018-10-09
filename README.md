@@ -68,7 +68,9 @@ Download below to `../embedding/skip-gram/`, `../glove.6B`, `../glove.42B/`, `..
 * 사전에 학습된 워드 임베딩 모델의 전처리와 태스크 전처리의 일치 여부 중요 & 추가적인 전처리 필요. (ex. 구두점 처리, 레마타이징)
 * 딥러닝 환경 구축 에러 정리 [[here](https://github.com/gritmind/suitable-combination/blob/master/assets/2018-01-30-Error-Messages.md)]
 
-
+## Further Study
+* 직접적인 비교를 하기 위해 전처리와 데이터가 통일 사전에 학습된 워드 임베딩 사용
+* 일반성을 높이기 위해 다른 데이터셋도 사용
 
 
 
